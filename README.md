@@ -23,7 +23,10 @@ export BUILD_HARNESS_EXTENSIONS_PATH ?= $(BUILD_HARNESS_PATH)/build-harness-exte
   alembic/history                     List changeset scripts in chronological order
   alembic/upgrade                     Apply alembic migrations to the latest revision
   asdf/install                        Installing required tools
+  docker/registry/auth                Authenticate to docker registry (log in if unauthenticated)
+  docker/registry/login               Log in to docker registry
   git/submodules-update               Update submodules
+  gitlab/registry/auth                Authenticate to Gitlab Container registry (log in if unauthenticated)
   jsonnet/diff                        Diff Jsonnet fils against expected golden
   jsonnet/diff-help                   Help regarding Jsonnet diff
   jsonnet/gen-golden                  Generate expected golden files from Jsonnet
